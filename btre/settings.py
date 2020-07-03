@@ -142,3 +142,10 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
+
+#Email Config
+EMAIL_HOST = 'mail.supplybox.com.np'
+EMAIL_PORT = 26
+EMAIL_HOST_USER = 'kalash.maskey@supplybox.com.np'
+EMAIL_HOST_PASSWORD = 'supplybox@123'
+EMAIL_USE_TLS=True
